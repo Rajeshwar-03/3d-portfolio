@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#09090b"/><stop offset="1" stop-color="#171717"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#g)"/><circle cx="980" cy="170" r="210" fill="#a855f7" opacity=".10"/><circle cx="170" cy="540" r="190" fill="#06b6d4" opacity=".08"/>
+<text x="90" y="115" fill="#c084fc" font-family="Arial" font-size="34" font-weight="700">SECURE E-HEALTH RECORDS</text>
+<text x="90" y="155" fill="#94a3b8" font-family="Arial" font-size="20">Cryptography • IPFS • Blockchain Smart Contracts</text>
+<g stroke="#a78bfa" stroke-width="4" fill="#18181b"><rect x="130" y="250" width="230" height="150" rx="22"/><rect x="485" y="200" width="230" height="150" rx="22"/><rect x="840" y="250" width="230" height="150" rx="22"/></g>
+<path d="M360 325L485 275M715 275L840 325" stroke="#c084fc" stroke-width="8"/><path d="M360 370L485 320M715 320L840 370" stroke="#22d3ee" stroke-width="4" opacity=".7"/>
+<text x="178" y="315" fill="#e9d5ff" font-family="Arial" font-size="27">PATIENT</text><text x="162" y="350" fill="#94a3b8" font-family="Arial" font-size="18">ABE ENCRYPTED</text>
+<text x="530" y="270" fill="#e9d5ff" font-family="Arial" font-size="27">IPFS</text><text x="515" y="305" fill="#94a3b8" font-family="Arial" font-size="18">HASH STORAGE</text>
+<text x="880" y="315" fill="#e9d5ff" font-family="Arial" font-size="27">ETHEREUM</text><text x="875" y="350" fill="#94a3b8" font-family="Arial" font-size="18">SMART CONTRACT</text>
+<rect x="250" y="500" width="700" height="70" rx="20" fill="#111827" stroke="#334155"/><text x="300" y="545" fill="#67e8f9" font-family="Arial" font-size="23">TAMPER-PROOF • ACCESS CONTROL • AUDIT TRAIL</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><radialGradient id="bg"><stop stop-color="#202020"/><stop offset="1" stop-color="#050505"/></radialGradient><linearGradient id="cube" x1="0" x2="1"><stop stop-color="#ffffff"/><stop offset=".45" stop-color="#8b8b8b"/><stop offset="1" stop-color="#252525"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#bg)"/><g opacity=".18" stroke="#fff"><path d="M0 560H1200M0 470H1200M0 380H1200M0 290H1200"/><path d="M150 0V700M300 0V700M450 0V700M600 0V700M750 0V700M900 0V700M1050 0V700"/></g>
+<g transform="translate(600 350)"><ellipse cx="0" cy="210" rx="245" ry="35" fill="#fff" opacity=".08"/><rect x="-125" y="-125" width="250" height="250" rx="22" transform="rotate(45)" fill="url(#cube)" opacity=".9"/><rect x="-75" y="-75" width="150" height="150" rx="16" transform="rotate(45)" fill="#0b0b0b"/><text x="-45" y="12" fill="#fff" font-family="Arial" font-size="34" font-weight="700" transform="rotate(0)">RR</text></g>
+<text x="70" y="95" fill="#fff" font-family="Arial" font-size="36" font-weight="700">IMMERSIVE 3D PORTFOLIO</text>
+<text x="72" y="135" fill="#9ca3af" font-family="Arial" font-size="21">Three.js • WebGL • GSAP • Blender • JavaScript</text>
+</svg>

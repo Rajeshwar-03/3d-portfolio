@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajeshwar Reddy | 3D AI/ML Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-mark">Rajeshwar Reddy</div><div class="loader-bar"><span></span></div><p>Initializing 3D portfolio...</p></div>
+
+<header class="navbar">
+<a class="logo" href="#home"><b>Rajeshwar Reddy</b></a>
+<nav id="nav-menu">
+<a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+</nav>
+<button class="menu-btn" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+</header>
+
+<canvas id="webgl"></canvas>
+<div class="cursor-glow"></div>
+
+<main>
+<section id="home" class="hero">
+<div class="hero-copy">
+<div class="status"><span></span> AVAILABLE FOR OPPORTUNITIES</div>
+<p class="eyebrow">HELLO, I'M</p>
+<h1>Baddam <span>Rajeshwar</span><br>Reddy</h1>
+<div class="typing-line"><span id="typed"></span><span class="caret">|</span></div>
+<p class="hero-text">CSE (AI/ML) graduate building intelligent applications, interactive websites and immersive 3D experiences.</p>
+<div class="hero-actions">
+<a class="btn primary" href="#projects">Explore my projects <i class="fa-solid fa-arrow-down"></i></a>
+<a class="btn ghost" href="assets/resume/Rajeshwar_Reddy_Resume.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i> View resume</a>
+</div>
+<div class="socials">
+<a href="mailto:baddamrajeshwar6@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+<a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+<a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+</div>
+<div class="hero-photo-wrap">
+<div class="photo-ring ring-a"></div><div class="photo-ring ring-b"></div>
+<div class="photo-card">
+<img src="assets/images/profile.png" alt="Rajeshwar Reddy">
+<div class="photo-caption"><strong>AI/ML • Web • 3D</strong><span>Developer Portfolio</span></div>
+</div>
+</div>
+<div class="scroll-cue">SCROLL <span>↓</span></div>
+</section>
+
+<section id="about" class="section">
+<div class="section-head"><span>01 / ABOUT</span><h2>Turning ideas into <em>interactive</em> experiences.</h2></div>
+<div class="about-grid">
+<div class="about-copy">
+<p>I am a Computer Science & Engineering graduate specializing in Artificial Intelligence and Machine Learning. I enjoy combining programming, AI, web development and 3D design to create practical digital experiences.</p>
+<p>My portfolio showcases academic projects, AI/computer-vision work and a WebGL-based 3D portfolio concept.</p>
+<div class="metrics"><div><b>9.20</b><small>B.Tech CGPA</small></div><div><b>2+</b><small>Major AI Projects</small></div><div><b>10+</b><small>Technologies</small></div></div>
+</div>
+<div class="terminal">
+<div class="terminal-top"><span></span><span></span><span></span><label>developer.js</label></div>
+<pre><span class="p">const</span> developer = {
+  name: <span class="s">"Rajeshwar Reddy"</span>,
+  focus: [<span class="s">"AI/ML"</span>, <span class="s">"Web"</span>, <span class="s">"3D"</span>],
+  mindset: <span class="s">"Always Learning"</span>
+};</pre>
+</div>
+</div>
+</section>
+
+<section id="skills" class="section">
+<div class="section-head"><span>02 / SKILLS</span><h2>A toolkit for <em>building.</em></h2></div>
+<div class="skills-grid">
+<div class="skill"><i class="fa-brands fa-python"></i><b>Python</b><small>AI / ML / Data</small></div>
+<div class="skill"><i class="fa-brands fa-java"></i><b>Java</b><small>OOP / Basics</small></div>
+<div class="skill"><i class="fa-brands fa-js"></i><b>JavaScript</b><small>Interactive Web</small></div>
+<div class="skill"><i class="fa-brands fa-html5"></i><b>HTML5</b><small>Web Structure</small></div>
+<div class="skill"><i class="fa-brands fa-css3-alt"></i><b>CSS3</b><small>UI / Animation</small></div>
+<div class="skill"><i class="fa-solid fa-cube"></i><b>Three.js</b><small>WebGL / 3D</small></div>
+<div class="skill"><i class="fa-solid fa-film"></i><b>Blender</b><small>3D Design</small></div>
+<div class="skill"><i class="fa-solid fa-database"></i><b>MySQL</b><small>Database</small></div>
+<div class="skill"><i class="fa-brands fa-git-alt"></i><b>Git</b><small>Version Control</small></div>
+<div class="skill"><i class="fa-solid fa-server"></i><b>Supabase</b><small>Backend / Data</small></div>
+</div>
+</section>
+
+<section id="projects" class="section projects">
+<div class="section-head"><span>03 / PROJECTS</span><h2>Projects with <em>purpose.</em></h2></div>
+
+<article class="project">
+<div class="project-media"><img src="assets/images/grocery-ai.svg" alt="Smart Grocery Billing and Object Detection project preview"><div class="project-badge">AI / COMPUTER VISION</div></div>
+<div class="project-info"><span class="number">01</span><h3>Smart Grocery Billing & Object Detection System</h3><p>AI-powered grocery recognition and billing system that identifies products from images/video, extracts features, validates product information and generates bills.</p><div class="chips"><span>Python</span><span>YOLO</span><span>OpenCV</span><span>Gradio</span><span>SQLite</span><span>FAISS</span><span>CNN</span></div><div class="project-detail"><b>What I built</b><p>Object detection pipeline + feature extraction + similarity search + automated billing workflow.</p></div></div>
+</article>
+
+<article class="project reverse">
+<div class="project-media"><img src="assets/images/healthcare-blockchain.svg" alt="Secure E-Health Records project preview"><div class="project-badge">BLOCKCHAIN / SECURITY</div></div>
+<div class="project-info"><span class="number">02</span><h3>Secure E-Health Records Storage on Cloud</h3><p>A secure healthcare-record architecture using Attribute-Based Encryption, IPFS and Ethereum smart contracts to protect records and provide tamper-evident access and auditing.</p><div class="chips"><span>Python</span><span>Java Servlet</span><span>Solidity</span><span>ABE</span><span>IPFS</span><span>JSP</span><span>Ganache</span><span>Truffle</span></div><div class="project-detail"><b>What I built</b><p>Encrypted record storage + IPFS hash registration + smart-contract based integrity and access workflow.</p></div></div>
+</article>
+
+<article class="project">
+<div class="project-media"><img src="assets/images/portfolio-3d.svg" alt="Immersive 3D portfolio project preview"><div class="project-badge">3D / WEBGL</div></div>
+<div class="project-info"><span class="number">03</span><h3>Immersive 3D Developer Portfolio</h3><p>This portfolio itself: a cinematic personal website with animated sections, a live Three.js scene, interactive cards and a dedicated project showcase.</p><div class="chips"><span>Three.js</span><span>WebGL</span><span>GSAP</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Blender-ready</span></div><div class="project-detail"><b>Animation features</b><p>Scroll-triggered reveals, 3D background, mouse interaction, floating profile image, typing intro and hover effects.</p></div></div>
+</article>
+</section>
+
+<section id="journey" class="section journey">
+<div class="section-head"><span>04 / JOURNEY</span><h2>Education & <em>experience.</em></h2></div>
+<div class="timeline">
+<div class="time-item"><span>2022 — 2026</span><div><h3>B.Tech — CSE (AI/ML)</h3><p>St. Peter's Engineering College, JNTUH</p><b>CGPA 9.20</b></div></div>
+<div class="time-item"><span>2020 — 2022</span><div><h3>Intermediate — MPC</h3><p>Sri Gayatri Junior College</p><b>93%</b></div></div>
+<div class="time-item"><span>2019 — 2020</span><div><h3>Secondary School</h3><p>Little Flower High School</p><b>CGPA 10</b></div></div>
+<div class="time-item"><span>Internship</span><div><h3>AI & Data Analytics Intern</h3><p>AICTE — Edunet Foundation · 4-week virtual internship</p></div></div>
+</div>
+</section>
+
+<section class="section certifications">
+<div class="section-head"><span>05 / CERTIFICATIONS</span><h2>Always <em>learning.</em></h2></div>
+<div class="cert-grid">
+<div>Data Analysis with Python</div><div>Google Cloud Computing Foundation</div><div>ServiceNow Certified System Administrator</div><div>Introduction to Java</div><div>ServiceNow Certified Application Developer</div><div>HTML / CSS / JavaScript</div>
+</div>
+</section>
+
+<section id="contact" class="section contact">
+<div class="contact-box">
+<span>06 / CONTACT</span><h2>Let's build the <em>next experience.</em></h2>
+<p>Interested in software development, AI/ML, web development or interactive 3D experiences.</p>
+<a class="email" href="mailto:baddamrajeshwar6@gmail.com">baddamrajeshwar6@gmail.com</a>
+<div class="contact-actions"><a class="btn primary" href="assets/resume/Rajeshwar_Reddy_Resume.pdf" target="_blank">Open resume <i class="fa-solid fa-arrow-up-right-from-square"></i></a><a class="btn ghost" href="mailto:baddamrajeshwar6@gmail.com">Contact me</a></div>
+</div>
+</section>
+</main>
+<footer>© 2026 Rajeshwar Reddy · 3D AI/ML Portfolio</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"}}</script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
